@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from django.contrib import admin
 from library.models import Book, Borrowing, Reader
 

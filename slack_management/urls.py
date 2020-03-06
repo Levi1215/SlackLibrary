@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """slack_management URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
