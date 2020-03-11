@@ -210,7 +210,7 @@ def book_search(request):
             keyword = request.GET.get('keyword', None)
             books = Book.objects.filter(author__contains=keyword).order_by('-title')[0:50]
 
-    paginator = Paginator(books, 5)
+    paginator = Paginator(books, 10)
     page = request.GET.get('page', 1)
 
     try:
